@@ -1,8 +1,9 @@
+const SUS = 210
 function setup(){
     createCanvas(420, 420)
 }
 function draw() {
     background(0, 255, 255);
-
-    rect(187, 42, 42, 42);
+    rectMode(CENTER)
+    rect(SUS, SUS, SUS - 100, SUS - 100, SUS,);
 }
